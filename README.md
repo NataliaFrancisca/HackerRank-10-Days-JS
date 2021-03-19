@@ -6,12 +6,12 @@
 ### :pushpin: Desafios:
 
 - [X] Day 0 - Hello World.  
-- [ ] Day 0 - Data Types.  
+- [X] Day 0 - Data Types.  
 - [X] Day 1 - Arithmetic Operators.  
 - [X] Day 1 - Functions.  
 - [X] Day 1 - Let and Const.  
 - [X] Day 2 - Conditional Statements: If-Else 
-- [ ] Day 2 - Conditional Statements: Switch
+- [X] Day 2 - Conditional Statements: Switch
 - [ ] Day 2 - Loops
 - [ ] Day 3 - Arrays
 - [ ] Day 3 - Try, Catch, and Finally
@@ -29,7 +29,7 @@
 - [ ] Day 7 - Regular Expressions III
 - [ ] Day 8 - Create a Button
 - [ ] Day 8 - Buttons COntainer
-- [ ] Day 0 - Binary Calculator
+- [ ] Day 9 - Binary Calculator
 
 ### :link: Link dos Desafios:
   
