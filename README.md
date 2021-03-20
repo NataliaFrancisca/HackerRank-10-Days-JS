@@ -12,8 +12,8 @@
 - [X] Day 1 - Let and Const.  
 - [X] Day 2 - Conditional Statements: If-Else 
 - [X] Day 2 - Conditional Statements: Switch
-- [ ] Day 2 - Loops
-- [ ] Day 3 - Arrays
+- [X] Day 2 - Loops
+- [X] Day 3 - Arrays
 - [ ] Day 3 - Try, Catch, and Finally
 - [ ] Day 3 - Throw
 - [ ] Day 4 - Create a Rectangle Object
