@@ -15,7 +15,7 @@
 - [X] Day 2 - Loops
 - [X] Day 3 - Arrays
 - [X] Day 3 - Try, Catch, and Finally
-- [ ] Day 3 - Throw
+- [X] Day 3 - Throw
 - [ ] Day 4 - Create a Rectangle Object
 - [ ] Day 4 - Count Objects
 - [ ] Day 4 - Classes
