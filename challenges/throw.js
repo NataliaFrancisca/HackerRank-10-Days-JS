@@ -14,5 +14,5 @@ function isPositive(a){
 }
 
 console.log(isPositive(2));
-console.log(isPositive(0));
+console.log(isPositive(16));
 console.log(isPositive(-2));
