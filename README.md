@@ -16,8 +16,8 @@
 - [X] Day 3 - Arrays
 - [X] Day 3 - Try, Catch, and Finally
 - [X] Day 3 - Throw
-- [ ] Day 4 - Create a Rectangle Object
-- [ ] Day 4 - Count Objects
+- [X] Day 4 - Create a Rectangle Object
+- [X] Day 4 - Count Objects
 - [ ] Day 4 - Classes
 - [ ] Day 5 - Inheritance
 - [ ] Day 5 - Template Literals
