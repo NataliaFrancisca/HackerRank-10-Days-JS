@@ -7,11 +7,7 @@
             }
         }
         
-        if(exist > 0){
-            return exist;
-        }else{
-            return exist;
-        }
+       return exist;
 }
 
 
