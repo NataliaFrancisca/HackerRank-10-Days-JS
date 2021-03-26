@@ -18,7 +18,7 @@
 - [X] Day 3 - Throw
 - [X] Day 4 - Create a Rectangle Object
 - [X] Day 4 - Count Objects
-- [ ] Day 4 - Classes
+- [X] Day 4 - Classes
 - [ ] Day 5 - Inheritance
 - [ ] Day 5 - Template Literals
 - [ ] Day 5 - Arrow Functions
