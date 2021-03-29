@@ -19,7 +19,7 @@
 - [X] Day 4 - Create a Rectangle Object
 - [X] Day 4 - Count Objects
 - [X] Day 4 - Classes
-- [ ] Day 5 - Inheritance
+- [X] Day 5 - Inheritance
 - [ ] Day 5 - Template Literals
 - [ ] Day 5 - Arrow Functions
 - [ ] Day 6 - Bitwise Operators
