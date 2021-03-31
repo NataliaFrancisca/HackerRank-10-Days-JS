@@ -21,10 +21,10 @@
 - [X] Day 4 - Classes
 - [X] Day 5 - Inheritance
 - [ ] Day 5 - Template Literals
-- [ ] Day 5 - Arrow Functions
+- [X] Day 5 - Arrow Functions
 - [ ] Day 6 - Bitwise Operators
-- [ ] Day 6 - JavaScript Dates
-- [ ] Day 7 - Regular Expressions I
+- [X] Day 6 - JavaScript Dates
+- [X] Day 7 - Regular Expressions I
 - [ ] Day 7 - Regular Expressions II
 - [ ] Day 7 - Regular Expressions III
 - [ ] Day 8 - Create a Button
