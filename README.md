@@ -25,7 +25,7 @@
 - [ ] Day 6 - Bitwise Operators
 - [X] Day 6 - JavaScript Dates
 - [X] Day 7 - Regular Expressions I
-- [ ] Day 7 - Regular Expressions II
+- [X] Day 7 - Regular Expressions II
 - [ ] Day 7 - Regular Expressions III
 - [ ] Day 8 - Create a Button
 - [ ] Day 8 - Buttons COntainer
