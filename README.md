@@ -26,9 +26,9 @@
 - [X] Day 6 - JavaScript Dates
 - [X] Day 7 - Regular Expressions I
 - [X] Day 7 - Regular Expressions II
-- [ ] Day 7 - Regular Expressions III
-- [ ] Day 8 - Create a Button
-- [ ] Day 8 - Buttons COntainer
+- [X] Day 7 - Regular Expressions III
+- [X] Day 8 - Create a Button
+- [ ] Day 8 - Buttons Container
 - [ ] Day 9 - Binary Calculator
 
 ### :link: Link dos Desafios:
