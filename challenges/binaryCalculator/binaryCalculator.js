@@ -9,33 +9,39 @@ for(let x = 0; x < buttons.length; x++){
 
 	buttons[x].addEventListener("click", () => {
 
-		res.innerHTML += buttons[x].innerHTML;
+		let innerButton = buttons[x].innerHTML;
+		res.innerHTML += innerButton;
 
-		if(buttons[x].innerHTML === "C"){
+		//clean result screen
+		if(innerButton === "C"){
 			res.innerHTML = "";
 			return;
 		}
 
-		if(buttons[x].innerHTML === "+" || buttons[x].innerHTML === "-" ||
-			buttons[x].innerHTML === "*" || buttons[x].innerHTML === "/"){
-
-			firstValue = parseInt(res.innerHTML);
-			operatorButton = buttons[x].innerHTML;
-			res.innerHTML = "";
-			return;
+		//Take the first result,the operator button and clean the result screen
+		if(innerButton === "+" || innerButton === "-" ||
+			innerButton === "*" || innerButton === "/"){
+				firstValue = parseInt(res.innerHTML);
+				operatorButton = innerButton;
+				res.innerHTML = "";
+				return;
 		}
 
-		if(buttons[x].innerHTML === "="){
+		//Take the second value, and doing the operator
+		if(innerButton === "="){
 			secondValue = parseInt(res.innerHTML);
 			let operatorBinary = operators(operatorButton, firstValue, secondValue);
-			console.log(operatorBinary);
-			res.innerHTML = needZeros(operatorBinary);
-			console.log(needZeros(operatorBinary));
-			return;
+				res.innerHTML = needZeros(operatorBinary);
+				firstValue = 0;
+				secondValue = 0;
+				return;
 		}
-	});
 
+	});
 }
+
+/*Take the number in binary, convert in to decimal and do the
+calculation. Then it return the number in binary again*/
 
 function operators(operator,a,b){
 
@@ -66,11 +72,9 @@ function operators(operator,a,b){
 	}
 
 	return result.toString(2);
-
 }
 
-let separateBinary = [];
-
+//Validation of binary numbers
 function needZeros(binaryNumber){
 
 	if(binaryNumber.length < 4){
@@ -80,8 +84,13 @@ function needZeros(binaryNumber){
 	}
 }
 
+/*If the binary numbers is less than 4 digits, it adds
+the zeros*/
+let separateBinary = [];
 
 function addZero(addBinaryNumber){
+
+	separateBinary = [];
 
 	let numberDivide = addBinaryNumber.split("");
 
@@ -89,15 +98,11 @@ function addZero(addBinaryNumber){
 			separateBinary.push(numberDivide[p]);
 		}
 
-	console.log(separateBinary);
-	console.log(separateBinary.length);
-
-	while (separateBinary.length < 4) {
-		separateBinary.unshift("0");
-	}
+		while(separateBinary.length < 4) {
+			separateBinary.unshift("0");
+		}
 
 	let result = separateBinary.join('');
-
 	return result;
 }
 
