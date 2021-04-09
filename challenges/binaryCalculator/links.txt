@@ -1,0 +1,4 @@
+https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/parseInt
+https://github.com/maniero/SOpt/blob/master/JavaScript/String/Binary.js
+https://www.w3schools.com/jsref/jsref_tostring_number.asp
+
