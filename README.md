@@ -29,7 +29,7 @@
 - [X] Day 7 - Regular Expressions III
 - [X] Day 8 - Create a Button
 - [X] Day 8 - Buttons Container
-- [ ] Day 9 - Binary Calculator
+- [X] Day 9 - Binary Calculator
 
 ### :link: Link dos Desafios:
   

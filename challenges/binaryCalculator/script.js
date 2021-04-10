@@ -31,7 +31,7 @@ for(let x = 0; x < buttons.length; x++){
 		if(innerButton === "="){
 			secondValue = parseInt(res.innerHTML);
 			let operatorBinary = operators(operatorButton, firstValue, secondValue);
-				res.innerHTML = needZeros(operatorBinary);
+				res.innerHTML = operatorBinary;
 				firstValue = 0;
 				secondValue = 0;
 				return;
@@ -73,42 +73,3 @@ function operators(operator,a,b){
 
 	return result.toString(2);
 }
-
-//Validation of binary numbers
-function needZeros(binaryNumber){
-
-	if(binaryNumber.length < 4){
-		return addZero(binaryNumber);
-	}else{
-		return binaryNumber;
-	}
-}
-
-/*If the binary numbers is less than 4 digits, it adds
-the zeros*/
-let separateBinary = [];
-
-function addZero(addBinaryNumber){
-
-	separateBinary = [];
-
-	let numberDivide = addBinaryNumber.split("");
-
-		for(let p in numberDivide){
-			separateBinary.push(numberDivide[p]);
-		}
-
-		while(separateBinary.length < 4) {
-			separateBinary.unshift("0");
-		}
-
-	let result = separateBinary.join('');
-	return result;
-}
-
-
-
-
-
-
-
