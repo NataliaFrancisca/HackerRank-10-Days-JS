@@ -20,7 +20,7 @@
 - [X] Day 4 - Count Objects
 - [X] Day 4 - Classes
 - [X] Day 5 - Inheritance
-- [ ] Day 5 - Template Literals
+- [X] Day 5 - Template Literals
 - [X] Day 5 - Arrow Functions
 - [ ] Day 6 - Bitwise Operators
 - [X] Day 6 - JavaScript Dates
