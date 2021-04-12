@@ -22,7 +22,7 @@
 - [X] Day 5 - Inheritance
 - [X] Day 5 - Template Literals
 - [X] Day 5 - Arrow Functions
-- [ ] Day 6 - Bitwise Operators
+- [X] Day 6 - Bitwise Operators
 - [X] Day 6 - JavaScript Dates
 - [X] Day 7 - Regular Expressions I
 - [X] Day 7 - Regular Expressions II
